@@ -1,0 +1,33 @@
+# === Python / Django ===
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+
+# === Django media/static ===
+media/
+staticfiles/
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+
+# === Node.js / Next.js (Frontend) ===
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/.DS_Store
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+
+# === Entorno compartido ===
+.env
+.env.*
